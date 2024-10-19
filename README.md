@@ -1,43 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Site</title>
-    <style>
-        /* Your existing CSS styles */
-    </style>
-</head>
-<body>
-    <header>
-        <!-- Your existing header content -->
-    </header>
 
-    <div class="container">
-        <section id="main">
-            <!-- Your existing main content -->
-        </section>
-    </div>
+<h1 align="center">Hi 👋, I'm Lethin</h1>
 
-    <footer>
-        <!-- Your existing footer content -->
-    </footer>
+[![](https://visitcount.itsvg.in/api?id=nithesh14&icon=2&color=11)](https://visitcount.itsvg.in)
 
-    <!-- Embedding the AI Chatbot script -->
-    <script>
-    !function(w, d, s, ...args){
-      var div = d.createElement('div');
-      div.id = 'aichatbot';
-      d.body.appendChild(div);
-      w.chatbotConfig = args;
+<h2 align="left">I'm from kanyakumari</h2>
 
-      var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s);
-      j.defer = true;
-      j.type = 'module';
-      j.src = 'https://aichatbot.sendbird.com/index.js';
-      f.parentNode.insertBefore(j, f);
-    }(window, document, 'script', '018AD1F0-29B9-4A08-807E-2F4B122E6FD9', 'onboarding_bot');
-    </script>
-</body>
-</html>
+## Fun Fact 🎈:
+
+<!-- <img align="left" height="150" src="https://raw.githubusercontent.com/hicodersofficial/images/main/giphy%20(2).gif" style="margin-right: 2rem;"> -->
+<img align="left" height="150" src="https://user-images.githubusercontent.com/69384657/179312151-fdabe3af-823f-41ab-a6d4-17a72af4e9e8.png" alt="octocat" style="margin-right: 2rem;" />
+
+
+<br>- 🔭 <b>Web developer<b><br>  - 📫 How to reach me <b>michalnithesh.cs22@stellamaryscoe.edu.in<b><br>- 📚 I'm currently learning <b>JavaScript<b><br>- 🖥️  See my portfolio at <b>[CLICK MEE...](http://nithesh14.github.io)<b></p><br>
+
+###
+
+## 🏆 GitHub Trophies:
+![](https://github-profile-trophy.vercel.app/?username=Michal-Nithesh&theme=monokai&no-frame=false&no-bg=false&margin-w=4)
+
+<div align="center">
+  <img height="150" src="https://logodownload.org/wp-content/uploads/2019/08/github-logo-2.png"  />
+</div>
+
+###
+
+<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
