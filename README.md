@@ -1,7 +1,7 @@
 
 <h1 align="center">Hi 👋, I'm Lethin</h1>
 
-[![](https://visitcount.itsvg.in/api?id=nithesh14&icon=2&color=11)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=Lethinkj&label=Profile%20Views&color=12&icon=7&pretty=false)](https://visitcount.itsvg.in)
 
 <h2 align="left">I'm from kanyakumari</h2>
 
