@@ -2,19 +2,17 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # every day at midnight
-  workflow_dispatch:      # allows manual run
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write  # allow GitHub Actions to push
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Generate Snake Animation
         uses: Platane/snk@v3
@@ -27,22 +25,12 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Create output branch if it doesn't exist
-        run: |
-          git fetch origin output || git checkout --orphan output
-          git checkout output || git checkout -b output
-
-      - name: Copy snake files to temporary dir
-        run: |
-          mkdir -p temp_publish
-          cp -r dist/* temp_publish/
-
       - name: Commit and push
         run: |
-          cd temp_publish
+          cd dist
           git init
-          git remote add origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/lethinkj/Lethinkj.git
           git checkout -b output
+          git remote add origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/lethinkj/Lethinkj.git
           git add .
           git commit -m "Update snake animation" || echo "Nothing to commit"
           git push -f origin output
