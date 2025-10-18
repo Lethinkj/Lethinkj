@@ -2,11 +2,11 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs daily at midnight
-  workflow_dispatch:       # allows manual run
+    - cron: "0 0 * * *"  # runs daily at midnight
+  workflow_dispatch:      # manual trigger
 
 permissions:
-  contents: write  # Give write permissions to GitHub Actions
+  contents: write  # allow GitHub Actions to push
 
 jobs:
   build:
@@ -14,7 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: Platane/snk@v3
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
         with:
           github_user_name: lethinkj
           outputs: dist/github-contribution-grid-snake.svg
@@ -22,8 +23,8 @@ jobs:
       - name: Push snake file to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          publish_dir: dist
-          publish_branch: output
+          build_dir: dist
+          target_branch: output
           commit_message: "Update snake animation"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
