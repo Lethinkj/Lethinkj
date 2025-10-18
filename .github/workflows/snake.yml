@@ -2,8 +2,8 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # runs daily at midnight
-  workflow_dispatch:      # manual trigger
+    - cron: "0 0 * * *"  # every day at midnight
+  workflow_dispatch:      # allows manual run
 
 permissions:
   contents: write  # allow GitHub Actions to push
@@ -11,8 +11,10 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Generate Snake Animation
         uses: Platane/snk@v3
@@ -20,11 +22,27 @@ jobs:
           github_user_name: lethinkj
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Push snake file to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          build_dir: dist
-          target_branch: output
-          commit_message: "Update snake animation"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+      - name: Setup Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Create output branch if it doesn't exist
+        run: |
+          git fetch origin output || git checkout --orphan output
+          git checkout output || git checkout -b output
+
+      - name: Copy snake files to temporary dir
+        run: |
+          mkdir -p temp_publish
+          cp -r dist/* temp_publish/
+
+      - name: Commit and push
+        run: |
+          cd temp_publish
+          git init
+          git remote add origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/lethinkj/Lethinkj.git
+          git checkout -b output
+          git add .
+          git commit -m "Update snake animation" || echo "Nothing to commit"
+          git push -f origin output
