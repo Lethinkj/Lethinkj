@@ -12,3 +12,8 @@
 
 
 <br>- 🔭 <b>developer<b><br>  - 📫 How to reach me <b>lethin.cs23@stellamaryscoe.edu.in<b><br>- 📚 I'm currently learning <b>Python<b>
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lethinkj&theme=midnight_purple)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lethinkj&theme=midnight_purple)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lethinkj&theme=midnight_purple)
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=lethinkj&theme=midnight_purple)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lethinkj&theme=midnight_purple&utcOffset=8)
