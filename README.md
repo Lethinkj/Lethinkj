@@ -17,3 +17,4 @@
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lethinkj&theme=midnight_purple)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=lethinkj&theme=midnight_purple)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lethinkj&theme=midnight_purple&utcOffset=8)
+![GitHub Snake Light](https://github.com/lethinkj/lethinkj/blob/output/github-contribution-grid-snake.svg)
