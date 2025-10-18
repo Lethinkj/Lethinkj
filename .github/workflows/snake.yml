@@ -5,18 +5,25 @@ on:
     - cron: "0 0 * * *"   # runs daily at midnight
   workflow_dispatch:       # allows manual run
 
+permissions:
+  contents: write  # Give write permissions to GitHub Actions
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+
       - uses: Platane/snk@v3
         with:
           github_user_name: lethinkj
           outputs: dist/github-contribution-grid-snake.svg
+
       - name: Push snake file to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output
-          build_dir: dist
+          publish_dir: dist
+          publish_branch: output
+          commit_message: "Update snake animation"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
