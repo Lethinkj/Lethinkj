@@ -65,7 +65,7 @@
 ### 🐍 Contribution Snake  
 
 <p align="center">
-  <img src="https://github.com/lethinkj/lethinkj/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/lethinkj/lethinkj/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 ---
