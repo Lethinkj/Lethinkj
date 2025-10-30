@@ -96,7 +96,7 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/lethinkj">
+  <a href="https://www.linkedin.com/in/lethin K J">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" />
   </a>
   &nbsp;&nbsp;
