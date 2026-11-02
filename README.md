@@ -18,7 +18,7 @@
 
 </div>
 
----
+
 
 <h2 align="center">01 / ABOUT ME</h2>
 
@@ -178,7 +178,6 @@ Automated attendance management using RFID-based identification.
 
 </div>
 
-```text
 [ACTIVE]     Full Stack Development
 [ACTIVE]     AI / Machine Learning
 [EXPLORING]  Deep Learning
@@ -214,4 +213,3 @@ HAVE AN IDEA? LET'S BUILD IT.
 <sub>ENGINEERED WITH CURIOSITY · POWERED BY CODE</sub>
 
 </div>
-```
