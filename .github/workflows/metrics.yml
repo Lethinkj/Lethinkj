@@ -1,13 +1,9 @@
-
-name: 🎃 Haunted GitHub Metrics
+name: Generate GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "17 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -15,50 +11,45 @@ permissions:
 jobs:
   metrics:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
-      - name: 🦇 Summon GitHub Metrics
+      - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          # Personal token for reading account data
           token: ${{ secrets.GH_PAT }}
-
-          # GitHub identity
           user: lethinkj
-
-          # Generated dashboard
           filename: github-metrics.svg
-          output_action: commit
 
-          # Visual configuration
+          # Main profile sections
+          base: header, community, repositories, metadata
+
+          # Display settings
           config_timezone: Asia/Kolkata
           config_display: large
-          config_animations: yes
-          config_base64: yes
-
-          # Main profile information
-          base: header
-
-          # Programming language statistics
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage, bytes-size
-          plugin_languages_colors: github
+          config_order: base.header, isocalendar, languages, achievements, activity, base.community, base.repositories, base.metadata
 
           # Contribution calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
+          # Most used programming languages
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage, bytes-size
+
           # Achievements
           plugin_achievements: yes
           plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+          plugin_achievements_limit: 8
 
           # Recent GitHub activity
           plugin_activity: yes
           plugin_activity_limit: 5
-          plugin_activity_days: 14
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
 
-          # Dashboard layout
-          config_order: base.header, isocalendar, languages, achievements, activity
+          # Show plugin errors in workflow logs
+          plugins_errors_fatal: yes
