@@ -1,4 +1,4 @@
-```markdown
+
 <div align="center">
 
 <img src="./winter-header.svg" width="100%" alt="Animated winter snowfall header"/>
