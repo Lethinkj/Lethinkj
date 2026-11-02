@@ -1,88 +1,96 @@
-# `LETHIN.EXE` — SYSTEM INITIALIZED ⚡
+# LETHIN.EXE ⚡
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:050816,25:111B46,50:312E81,75:164E9C,100:050816&text=LETHIN%20K%20J&fontSize=75&fontColor=FFFFFF&fontAlignY=38&animation=twinkling&desc=ENGINEERING%20INTELLIGENCE%20%7C%20BUILDING%20TOMORROW&descSize=15&descAlignY=58"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=2200&pause=700&color=00E5FF&center=true&vCenter=true&width=750&lines=%3E+BOOTING+DEVELOPER+ENVIRONMENT...;%3E+FULL+STACK+DEVELOPER;%3E+AI+%26+AUTOMATION+BUILDER;%3E+TURNING+COMPLEXITY+INTO+CODE;%3E+SYSTEM+READY_"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=240&color=0:080D1A,50:101D38,100:080D1A&text=LETHIN%20K%20J&fontSize=68&fontColor=EAF6FF&fontAlignY=43&desc=SOFTWARE%20ENGINEER%20%2F%2F%20AI%20BUILDER&descSize=16&descColor=58A6FF&descAlignY=65&animation=fadeIn" alt="Lethin K J"/>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=lethinkj&style=for-the-badge&color=6D28D9&label=SYSTEM+VISITORS"/>
-<img src="https://img.shields.io/github/followers/lethinkj?style=for-the-badge&logo=github&color=0EA5E9&label=NETWORK"/>
-<img src="https://img.shields.io/github/stars/lethinkj?style=for-the-badge&logo=github&color=7C3AED&label=REPOSITORY+STARS"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%F0%9F%92%BB;AI+%26+Automation+Enthusiast+%F0%9F%A4%96;Building+Intelligent+Applications+%F0%9F%9A%80;Turning+Ideas+Into+Real+Products+%E2%9C%A8;Always+Learning.+Always+Building."/>
+
+<br/><br/>
+
+<a href="https://github.com/lethinkj">
+<img src="https://komarev.com/ghpvc/?username=lethinkj&style=for-the-badge&color=2563EB&label=PROFILE+VIEWS" alt="Profile views"/>
+</a>
+<a href="https://github.com/lethinkj?tab=followers">
+<img src="https://img.shields.io/github/followers/lethinkj?style=for-the-badge&logo=github&color=0891B2&label=FOLLOWERS" alt="Followers"/>
+</a>
+<a href="https://github.com/lethinkj">
+<img src="https://img.shields.io/github/stars/lethinkj?style=for-the-badge&logo=github&color=7C3AED&label=STARS" alt="Stars"/>
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/LOCATION-KANYAKUMARI%2C%20INDIA-111827?style=flat-square&labelColor=111827&color=2563EB"/>
+<img src="https://img.shields.io/badge/STATUS-ALWAYS%20BUILDING-111827?style=flat-square&labelColor=111827&color=0891B2"/>
 
 </div>
 
 ---
 
-## `01 / WHO_AM_I`
-
-```bash
-$ whoami
-
-NAME       : Lethin K J
-LOCATION   : Kanyakumari, India
-ROLE       : Full Stack Developer
-INTERESTS  : AI / ML / AUTOMATION / SOFTWARE
-STATUS     : BUILDING SOMETHING INTERESTING...
-```
+<h2 align="center">01 / WHO AM I</h2>
 
 <div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=%24+initializing+developer.profile...;%24+loading+creative.mind...;%24+system+ready+%E2%9C%93" alt="Terminal animation"/>
+</div>
 
-<img align="right" width="290" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif"/>
+<img align="right" width="280" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coding animation"/>
 
-### NOT JUST WRITING CODE.
+Hey! I'm **Lethin K J**, a Computer Science undergraduate and Full Stack Developer passionate about building impactful software products and intelligent applications.
 
-**I BUILD SYSTEMS THAT SOLVE PROBLEMS.**
+I enjoy exploring emerging technologies, developing scalable applications, and transforming creative ideas into practical solutions.
 
-Computer Science undergraduate passionate about transforming ideas into intelligent applications, scalable software and practical digital products.
-
-- `> Designing intelligent applications`
-- `> Developing full-stack ecosystems`
-- `> Exploring AI and computer vision`
-- `> Automating real-world workflows`
-- `> Experimenting with emerging tech`
+- 💻 Full Stack Development
+- 🤖 Artificial Intelligence & Machine Learning
+- 🧠 Computer Vision & Intelligent Systems
+- ⚡ Automation & API Development
+- 🌐 Building modern digital experiences
+- 🚀 Constantly experimenting with new technologies
 
 <br clear="right"/>
 
-</div>
-
 ---
 
-## `02 / TECH_CORE`
+<h2 align="center">02 / TECHNOLOGY MATRIX</h2>
 
 <div align="center">
 
-### THE TECHNOLOGY MATRIX
+### PROGRAMMING LANGUAGES
 
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css&theme=dark&perline=6"/>
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css&theme=dark" alt="Programming languages"/>
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,flutter,vite&theme=dark&perline=6"/>
+### FRAMEWORKS & DEVELOPMENT
 
-<img src="https://skillicons.dev/icons?i=supabase,mongodb,mysql,postgres,appwrite,firebase&theme=dark&perline=6"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,flutter,vite&theme=dark" alt="Frameworks"/>
 
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,git,github,docker,linux,figma&theme=dark&perline=8"/>
+### DATABASES & CLOUD
+
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,supabase,appwrite,firebase,aws,azure&theme=dark" alt="Databases and cloud"/>
+
+### AI, TOOLS & ENVIRONMENT
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,git,github,docker,linux,vscode,figma&theme=dark" alt="AI and developer tools"/>
 
 </div>
 
 ### SPECIALIZATION MODULES
 
 | MODULE | FOCUS |
-|:--|:--|
-| `AI_ENGINE` | Machine Learning, Computer Vision |
-| `VISION_CORE` | OpenCV, YOLO, Image Processing |
+|:---|:---|
+| `AI_ENGINE` | Machine Learning, Deep Learning |
+| `VISION_CORE` | Computer Vision, Image Processing |
 | `WEB_ENGINE` | Full Stack, APIs, Web Applications |
 | `DATA_CORE` | SQL, PostgreSQL, Data Processing |
 | `AUTOMATION` | Intelligent Workflows, AI Integration |
 
 ---
 
-## `03 / ACTIVE_PROJECTS`
+<h2 align="center">03 / DEVELOPMENT LAB</h2>
 
 <div align="center">
 
-### CURRENTLY IN THE DEVELOPMENT LAB
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2500&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=EXPERIMENTING+WITH+IDEAS...;BUILDING+REAL+WORLD+SOLUTIONS...;INNOVATION+IN+PROGRESS..."/>
 
 </div>
 
@@ -90,48 +98,64 @@ Computer Science undergraduate passionate about transforming ideas into intellig
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 CAPTONINER
+<h3 align="center">🤖 CAPTONINER</h3>
 
-**AI MULTILINGUAL CAPTIONING**
+<p align="center">
+AI-POWERED MULTILINGUAL CAPTIONING
+</p>
 
-Real-time multilingual captioning powered by speech recognition and intelligent processing.
+An intelligent real-time multilingual captioning system designed to make spoken communication more accessible.
 
-`AI` `SPEECH` `PYTHON`
+<p align="center">
+<code>AI</code> <code>Speech Recognition</code> <code>Python</code>
+</p>
 
 </td>
 <td width="50%" valign="top">
 
-### 🧠 CALOMR
+<h3 align="center">🧠 CALOMR</h3>
 
-**AI STEM QUESTION SOLVER**
+<p align="center">
+AI-POWERED STEM QUESTION SOLVER
+</p>
 
-An intelligent problem-solving concept designed to assist learners with STEM questions.
+An intelligent learning solution designed to assist students in understanding and solving STEM problems.
 
-`AI` `EDTECH` `ML`
+<p align="center">
+<code>AI</code> <code>Machine Learning</code> <code>Education</code>
+</p>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ BASHXCODE
+<h3 align="center">⚡ BASHXCODE</h3>
 
-**CODING PLATFORM**
+<p align="center">
+CODING & EXECUTION PLATFORM
+</p>
 
-A developer-focused coding platform with code execution and programming workflows.
+A developer-focused coding platform designed around programming challenges, code execution and validation.
 
-`WEB` `API` `DEVELOPMENT`
+<p align="center">
+<code>Full Stack</code> <code>APIs</code> <code>Development</code>
+</p>
 
 </td>
 <td width="50%" valign="top">
 
-### 📡 SMART ATTENDANCE
+<h3 align="center">📡 SMART ATTENDANCE</h3>
 
-**RFID AUTOMATION**
+<p align="center">
+RFID-BASED ATTENDANCE MANAGEMENT
+</p>
 
-A smart attendance management platform using RFID-based tracking.
+A smart attendance management platform built around RFID-based identification and automated attendance tracking.
 
-`IOT` `DATABASE` `AUTOMATION`
+<p align="center">
+<code>IoT</code> <code>RFID</code> <code>Database</code>
+</p>
 
 </td>
 </tr>
@@ -139,96 +163,96 @@ A smart attendance management platform using RFID-based tracking.
 
 ---
 
-## `04 / GITHUB_TELEMETRY`
+<h2 align="center">04 / GITHUB TELEMETRY</h2>
 
 <div align="center">
 
-### LIVE DEVELOPER STATISTICS
+### DEVELOPER STATISTICS
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=lethinkj&show_icons=true&theme=transparent&hide_border=true&title_color=00E5FF&icon_color=8B5CF6&text_color=C9D1D9&bg_color=050816&rank_icon=github"/>
+<img src="./github-metrics.svg" width="100%" alt="GitHub metrics dashboard"/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lethinkj&layout=compact&theme=transparent&hide_border=true&title_color=00E5FF&text_color=C9D1D9&bg_color=050816&langs_count=8"/>
+</div>
+
+---
+
+<h2 align="center">05 / CONTRIBUTION UNIVERSE</h2>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=550&lines=EVERY+COMMIT+TELLS+A+STORY.;EVERY+LINE+MOVES+THE+PROJECT+FORWARD."/>
 
 <br/><br/>
 
-<img width="75%" src="https://streak-stats.demolab.com?user=lethinkj&theme=transparent&hide_border=true&background=050816&ring=8B5CF6&fire=00E5FF&currStreakLabel=00E5FF&sideLabels=C9D1D9&dates=8892A6"/>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lethinkj/Lethinkj/output/github-snake-dark.svg"/>
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lethinkj/Lethinkj/output/github-snake.svg"/>
+<img src="https://raw.githubusercontent.com/lethinkj/Lethinkj/output/github-snake.svg" width="100%" alt="GitHub contribution snake"/>
+</picture>
 
 </div>
 
 ---
 
-## `05 / CONTRIBUTION_MATRIX`
+<h2 align="center">06 / ACHIEVEMENTS UNLOCKED</h2>
 
 <div align="center">
 
-### EVERY COMMIT BUILDS THE FUTURE
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=lethinkj&bg_color=050816&color=00E5FF&line=8B5CF6&point=FFFFFF&area=true&hide_border=true&custom_title=DEVELOPER+ACTIVITY+MATRIX"/>
-
-<br/>
-
-<img width="100%" src="https://raw.githubusercontent.com/lethinkj/Lethinkj/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation"/>
+<img src="https://github-profile-trophy.vercel.app/?username=lethinkj&theme=onestar&no-frame=true&no-bg=true&column=4&margin-w=10" width="100%" alt="GitHub trophies"/>
 
 </div>
 
 ---
 
-## `06 / ACHIEVEMENT_UNLOCKED`
+<h2 align="center">07 / CURRENT MISSION</h2>
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=lethinkj&theme=discord&no-frame=true&no-bg=true&column=4&margin-w=10"/>
-
-</div>
-
----
-
-## `07 / CURRENT_MISSION`
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2500&pause=900&color=A78BFA&center=true&vCenter=true&width=650&lines=EXPLORE+ARTIFICIAL+INTELLIGENCE;MASTER+INTELLIGENT+SYSTEMS;BUILD+SCALABLE+APPLICATIONS;AUTOMATE+THE+ORDINARY;CREATE+THE+EXTRAORDINARY"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2500&pause=900&color=8B5CF6&center=true&vCenter=true&width=650&lines=EXPLORE+ARTIFICIAL+INTELLIGENCE;MASTER+INTELLIGENT+SYSTEMS;BUILD+SCALABLE+APPLICATIONS;AUTOMATE+THE+ORDINARY;CREATE+THE+EXTRAORDINARY"/>
 
 </div>
 
 ```text
-[MISSION STATUS]
-
-[ACTIVE]    Full Stack Development
-[ACTIVE]    AI / Machine Learning
-[EXPLORING] Deep Learning
-[EXPLORING] Computer Vision
-[BUILDING]  Intelligent Applications
-
-NEXT OBJECTIVE: INNOVATE WITHOUT LIMITS
+╭────────────────────────────────────────────╮
+│             MISSION CONTROL                │
+├────────────────────────────────────────────┤
+│                                            │
+│  [ACTIVE]     Full Stack Development       │
+│  [ACTIVE]     AI / Machine Learning        │
+│  [EXPLORING]  Deep Learning                │
+│  [EXPLORING]  Computer Vision              │
+│  [BUILDING]   Intelligent Applications     │
+│                                            │
+├────────────────────────────────────────────┤
+│  NEXT OBJECTIVE: INNOVATE WITHOUT LIMITS   │
+╰────────────────────────────────────────────╯
 ```
 
 ---
 
-## `08 / ESTABLISH_CONNECTION`
+<h2 align="center">08 / ESTABLISH CONNECTION</h2>
 
 <div align="center">
 
+### HAVE AN IDEA? LET'S BUILD IT.
+
 <a href="mailto:kjlethin24@gmail.com">
-<img src="https://img.shields.io/badge/MAIL-00E5FF?style=for-the-badge&logo=gmail&logoColor=050816"/>
+<img src="https://img.shields.io/badge/EMAIL-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
-
 <a href="https://www.linkedin.com/in/lethin-k-j-510674293/">
-<img src="https://img.shields.io/badge/LINKEDIN-312E81?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
-
 <a href="https://github.com/lethinkj">
-<img src="https://img.shields.io/badge/GITHUB-111827?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:312E81,100:0891B2&height=150&section=footer&animation=twinkling"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3500&pause=1200&color=00E5FF&center=true&vCenter=true&width=650&lines=THANKS+FOR+VISITING+MY+UNIVERSE.;THE+NEXT+COMMIT+STARTS+NOW.;LET'S+BUILD+SOMETHING+EXTRAORDINARY."/>
 
-### `SYSTEM MESSAGE: THE FUTURE IS UNDER CONSTRUCTION.`
+<br/><br/>
 
-**CODE. CREATE. DISRUPT. REPEAT.**
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=90&color=0:080D1A,50:142B50,100:080D1A&section=footer"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1500&color=00E5FF&center=true&vCenter=true&width=500&lines=Thanks+for+visiting+my+digital+universe+%E2%9C%A8;See+you+in+the+next+commit+%F0%9F%9A%80"/>
+<sub>ENGINEERED WITH CURIOSITY · POWERED BY CODE · BUILT FOR THE FUTURE</sub>
 
 </div>
