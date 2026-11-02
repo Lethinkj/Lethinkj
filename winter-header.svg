@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="280"
+     viewBox="0 0 1200 280"
+     role="img"
+     aria-label="Animated winter landscape with snowfall">
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071724"/>
+      <stop offset="55%" stop-color="#102C3A"/>
+      <stop offset="100%" stop-color="#183C4A"/>
+    </linearGradient>
+
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#43D9C3" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#43D9C3" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#70D6C1" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8FBFF"/>
+      <stop offset="100%" stop-color="#8ABBC8"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="280" fill="url(#sky)"/>
+
+  <!-- Aurora -->
+  <path d="M-100 100 Q250 -20 500 95 T1300 60"
+        fill="none"
+        stroke="url(#aurora)"
+        stroke-width="65"
+        filter="url(#glow)">
+    <animate attributeName="d"
+      dur="12s"
+      repeatCount="indefinite"
+      values="
+      M-100 100 Q250 -20 500 95 T1300 60;
+      M-100 60 Q250 120 500 30 T1300 100;
+      M-100 100 Q250 -20 500 95 T1300 60"/>
+  </path>
+
+  <!-- Moon -->
+  <circle cx="1020" cy="68" r="29" fill="#DDF8FF" opacity=".12"/>
+  <circle cx="1020" cy="68" r="20" fill="#E5F8FF"/>
+  <circle cx="1028" cy="60" r="19" fill="#102C3A"/>
+
+  <!-- Stars -->
+  <g fill="#E6FAFF">
+    <circle cx="110" cy="45" r="1.8"/>
+    <circle cx="210" cy="85" r="1.4"/>
+    <circle cx="350" cy="35" r="1.5"/>
+    <circle cx="490" cy="75" r="1.8"/>
+    <circle cx="620" cy="38" r="1.3"/>
+    <circle cx="760" cy="90" r="1.7"/>
+    <circle cx="890" cy="35" r="1.4"/>
+    <circle cx="1130" cy="115" r="1.8"/>
+    <circle cx="180" cy="130" r="1.2"/>
+    <circle cx="550" cy="125" r="1.3"/>
+  </g>
+
+  <!-- Distant mountains -->
+  <path d="M0 205 L150 100 L280 205 L420 125 L570 215
+           L720 105 L900 210 L1050 120 L1200 210 V280 H0Z"
+        fill="#183C4A"/>
+
+  <!-- Snow peaks -->
+  <path d="M150 100 L122 140 L150 128 L178 145Z
+           M420 125 L390 165 L420 150 L450 168Z
+           M720 105 L690 148 L720 132 L750 152Z
+           M1050 120 L1020 158 L1050 145 L1080 165Z"
+        fill="#DFF7FC"
+        opacity=".85"/>
+
+  <!-- Pine forest -->
+  <g fill="#091E2A">
+    <path d="M35 250 L65 160 L95 250Z"/>
+    <path d="M75 260 L115 145 L155 260Z"/>
+    <path d="M180 260 L215 165 L250 260Z"/>
+    <path d="M300 260 L340 145 L380 260Z"/>
+    <path d="M450 260 L490 165 L530 260Z"/>
+    <path d="M650 260 L690 145 L730 260Z"/>
+    <path d="M810 260 L850 155 L890 260Z"/>
+    <path d="M960 260 L1000 145 L1040 260Z"/>
+    <path d="M1100 260 L1140 160 L1180 260Z"/>
+  </g>
+
+  <!-- Foreground snow -->
+  <path d="M0 250 Q250 220 500 255 T1000 245 T1200 250 V280 H0Z"
+        fill="url(#snow)"/>
+
+  <!-- Snowfall -->
+  <g fill="#F0FCFF" opacity=".9">
+    <circle cx="50" cy="-10" r="2.5">
+      <animate attributeName="cy" from="-10" to="290" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="130" cy="-40" r="2">
+      <animate attributeName="cy" from="-40" to="290" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="220" cy="-20" r="3">
+      <animate attributeName="cy" from="-20" to="290" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="310" cy="-60" r="2">
+      <animate attributeName="cy" from="-60" to="290" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="-15" r="2.5">
+      <animate attributeName="cy" from="-15" to="290" dur="7.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="510" cy="-50" r="2">
+      <animate attributeName="cy" from="-50" to="290" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="-25" r="3">
+      <animate attributeName="cy" from="-25" to="290" dur="8.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="730" cy="-60" r="2">
+      <animate attributeName="cy" from="-60" to="290" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="840" cy="-10" r="2.5">
+      <animate attributeName="cy" from="-10" to="290" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="-40" r="2">
+      <animate attributeName="cy" from="-40" to="290" dur="9.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="-20" r="3">
+      <animate attributeName="cy" from="-20" to="290" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1160" cy="-55" r="2">
+      <animate attributeName="cy" from="-55" to="290" dur="10s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+</svg>
